@@ -1,0 +1,23 @@
+.contenedorinfo{
+	overflow: hidden;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contenedorinfo img{
+	flex:1;
+	width: 70%;
+	height: 40%;
+	margin-top: 40px;
+}
+
+.contenedorinfo p{
+	flex:2;
+	font-size: 30px;
+	text-align: center;
+	width: 90%;
+	padding: 90px;
+}
+
