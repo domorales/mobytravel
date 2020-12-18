@@ -6,15 +6,15 @@ sr.reveal(".contenedor", {
 
 });
 
-sr.reveal(".contenedorInfo", {
+sr.reveal(".contenedorinfo", {
 	delay: 300,
 	duration: 1500,
 	origin: 'left',
-	distance: "-100px",
+	distance: "100px",
 
 });
 
-sr.reveal(".titulotour", {
+sr.reveal(".infoTour h2", {
 	delay: 300,
 	duration: 1000,
 	origin: 'top',
@@ -22,7 +22,7 @@ sr.reveal(".titulotour", {
 
 });
 
-sr.reveal(".textotour", {
+sr.reveal(".infoTour p", {
 	delay: 400,
 	duration: 1000,
 	origin: 'top',
@@ -30,15 +30,7 @@ sr.reveal(".textotour", {
 
 });
 
-sr.reveal(".card1", {
-	duration: 2000,
-
-});
-sr.reveal(".card2", {
-	duration: 2000,
-
-});
-sr.reveal(".card3", {
+sr.reveal(".cards", {
 	duration: 2000,
 
 });

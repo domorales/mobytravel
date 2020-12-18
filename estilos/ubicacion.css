@@ -1,0 +1,29 @@
+
+.contenedorubicacion{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-bottom: 80px;
+}
+
+#map{
+	margin-top: 90px;
+	width: 600px;
+	height: 400px;
+
+}
+
+.infoubicacion{
+	width: 500px;
+}
+
+.infoubicacion h2{
+	text-align: center;
+	font-size: 30px;
+}
+
+.infoubicacion p{
+	padding: 4%;
+	font-size: 18px;
+}
