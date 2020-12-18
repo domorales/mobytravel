@@ -34,3 +34,12 @@ sr.reveal(".cards", {
 	duration: 2000,
 
 });
+
+
+sr.reveal("footer", {
+	delay: 300,
+	duration: 1500,
+	origin: 'left',
+	distance: "200px",
+
+});
