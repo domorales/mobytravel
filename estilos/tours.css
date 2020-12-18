@@ -29,7 +29,7 @@
 .infoTour p{
 	margin-top: 20px;
 	flex:1;
-	font-size: 30px;
+	font-size: 23px;
 }
 
 .cards{
@@ -39,6 +39,7 @@
 	width: 100%;
 	justify-content: center;	
 	margin-top: 60px;
+	margin-bottom: 30px;
 
 
 }
