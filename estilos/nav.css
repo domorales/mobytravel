@@ -27,7 +27,7 @@
 }
 
 .enlaces{
-	margin-bottom: 30px; 
+	margin-bottom: 10px; 
 	width: 50%;
 	display: flex;
 	flex-wrap: wrap; 
@@ -54,6 +54,37 @@
 	display: none;
 }
 
+.enlaces i{
+	margin-top: 19px;
+}
+
+.idiomas{
+	position: absolute;
+	display: none;
+	align-content: center;
+	direction: column;
+	background-color: white;
+	right: 89px;
+	top: 75px;
+	padding-right: 10px;
+	width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+
+}
+
+.idiomas a{
+	display: block;
+	align-content: center;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 3px;
+}
+
+
+
+
 @media screen and (max-width: 800px){
 	.logo{
 		display: flex;
@@ -77,15 +108,53 @@
 	}
 
 	.enlaces a{
+		color:white;
 		margin: 0;
 		display: block;
 		width: 100%;
 		padding: 20px;
 		text-align: center;
 	}
-}
+
+		.idiomas{
+
+		position: absolute;
+		align-content: center;
+		background-color: white;
+		right: 100px;
+		top: 330px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  	z-index: 1;
+	  	
+
+	}
+
+	.idiomas a{
+		background-color: #00334e; 
+		margin:0;
+		color:white;
+	}
+
+	.fa-language{
+		color: white;
+	}
+
 	.enlaces a:hover{
 		background-color: white;
 		color:#00334e;
 	}
+
+	.enlaces i:hover{
+		background-color: white;
+		color:#00334e;
+	}
 }
+
+
+
+	
+
+
+
+
+
