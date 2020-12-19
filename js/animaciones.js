@@ -14,6 +14,8 @@ sr.reveal(".contenedorinfo", {
 
 });
 
+
+
 sr.reveal(".infoTour h2", {
 	delay: 300,
 	duration: 1000,

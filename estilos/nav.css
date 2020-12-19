@@ -19,7 +19,7 @@
 .contenedor img{
 	width: 150px;
 	height: 70px;
-	margin: 10px;
+	margin-top: 15px;
 	margin-left: 40px;
 
 
@@ -36,14 +36,14 @@
 
 .enlaces  a{
 	outline: none;
-	margin-top: 40px;
+	margin-top: 44px;
 	font-size: 19px;
 	text-decoration: none;
 	color: black;
 }
 
 
-.contenedor a:hover{
+.enlaces a:hover{
 	color: #004d73;
 }
 
@@ -66,7 +66,25 @@
 	}
 
 	.enlaces{
+		margin: 0;
+		width: 100%;
 		display: none;
+		background-color: #00334e;
+		transition: 0.5s;
+		
+
 	}
 
+	.enlaces a{
+		margin: 0;
+		display: block;
+		width: 100%;
+		padding: 20px;
+		text-align: center;
+	}
+}
+	.enlaces a:hover{
+		background-color: white;
+		color:#00334e;
+	}
 }

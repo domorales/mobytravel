@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="estilos/footer.css">
 
 	<script src="js/scrollreveal.js"></script>
+	<script src="js/menu.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJiKnL22WRK3RhevXzsm2g52qYLp83YpA&callback=initMap"  type="text/javascript"></script>
 	<script src="js/maps.js"></script>
 
@@ -27,14 +28,14 @@
 		<nav class="contenedor">
 			<div class="logo">
 				<img src="logo.png">
-					<i  class="fa fa-bars"></i>
+					<i  class="fa fa-bars" onclick="desplegar()"></i>
 				
 			</div>
 					
-					<div class="enlaces">
-						<a href="">Inicio</a>
-					<a href="">Tours</a>
-					<a href="">Contacto</a>
+					<div class="enlaces" id="enlaces">
+					<a href="">Inicio</a>
+					<a href="#tour">Tours</a>
+					<a href="#contac">Contacto</a>
 					<a href="">Idioma</a>
 					</div>
 					
@@ -56,31 +57,17 @@
 	<article>
 		<div class="contenedorinfo">
 			<img src="img/logo2.png">	
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Moby Dick Travel es una agencia especializada en alquiler de bicicletas y tablas de surf con más de 15 años de experiencia, ubicada en el cantón Puerto López, Manabi.
+				Nuestro objetivo es dar un servicio de calidad, seguro y personalizado. Para cumplir con las expectativas de nuestros clientes nos aseguramos del mantenimiento diario de cada uno de los implementos y asesoría.</p>
 		</div>
 	</article>
 
 	<article>
-		<div class="contenedortour">	
+		<div class="contenedortour">
+			<a id="tour"></a>	
 			<div class="infoTour">
 				<h2>Tours</h2>	
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Disfruta de paisajes inolvidables y playas hermosas. MobyDick Travel te ofrece alquiler de bicicletas y asesoría para conocer los lugares más mágicos de Puerto López.</p>
 			</div>
 
 			<div class="cards">
@@ -108,13 +95,8 @@
 	<article>
 		<div class="contenedorubicacion">
 			<div class="infoubicacion">
-				<h2>Ubicacion</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h2>Ubicación</h2>
+				<p>Nos encontramos ubicados en el Malecón Julio Izurieta, cerca de la gasolinera Asopescar.</p>
 			</div>
 			<div id="map"></div>
 			
@@ -133,6 +115,8 @@
 		</div>	
 
 		<div class="contacto">
+
+			<a id="contac"></a>
 			<h3>Contacto</h3>
 			<p>Direccion: Malecón Julio Izurieta</p>
 			<p>Teléfono: 22222222</p>
