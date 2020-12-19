@@ -6,6 +6,7 @@
 
 
 .contenedor{
+	background-color: white;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -44,4 +45,28 @@
 
 .contenedor a:hover{
 	color: #004d73;
+}
+
+
+
+.fa-bars{
+	display: none;
+}
+
+@media screen and (max-width: 800px){
+	.logo{
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.fa-bars{
+	 	display: inline;
+	 	color : #007fbd;
+	}
+
+	.enlaces{
+		display: none;
+	}
+
 }
