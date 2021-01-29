@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    font-size: 16px;
 }
 .navbar-brand img{
 
@@ -16,7 +17,7 @@
 
 .navbar a {
     font-family: 'Karla', sans-serif;
-    font-size: 22px;
+    font-size: 1.37rem;
     margin-right: 90px;
     color:black;
 }
@@ -42,12 +43,16 @@
 
 
 @media screen and (max-width: 992px){
+   
+    *{
+        font-size: 17px;
+    }
+
     .navbar a{
         margin: 0;
         outline: none;
         text-decoration: none;
         color:white;
-        font-size: 2rem;
     }
     
     .navbar li:hover {
@@ -79,10 +84,6 @@
 
     .navbar span{
         margin-bottom: 40px;
-    }
-
-    .fa-navicon{
-        font-size: 50px;
     }
 
 }
