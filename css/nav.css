@@ -16,7 +16,7 @@
 
 .navbar a {
     font-family: 'Karla', sans-serif;
-    font-size: 1em;
+    font-size: 19px;
     margin-right: 90px;
     color:black;
 }
@@ -30,6 +30,7 @@
 
 @media screen and (max-width: 766px){
     .navbar a{
+        font-size:22px;
         margin: 0;
         outline: none;
         text-decoration: none;
