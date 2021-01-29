@@ -1,0 +1,15 @@
+@keyframes fadeinleft{
+    0%{
+        transform: translate(-100%);
+        opacity: 0;
+    }
+}
+
+
+@keyframes fadeinUp{
+    0%{
+        transform: translateY(20%);
+        opacity: 0;
+    }
+}
+

@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="css/tour.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJiKnL22WRK3RhevXzsm2g52qYLp83YpA&callback=initMap"  type="text/javascript"></script>
-	<script src="js/maps.js"></script>
+    <script src="js/maps.js"></script>
+    <script src="js/scroll.js"></script>
 </head>
 <body>
     <header>
@@ -61,7 +63,7 @@
           </div>
     </section>
     
-    <section class="info">
+    <section class="info" id="info">
         <div class="container">
             <div class="row">
                 <h2 class="col-12"><img class="img-fluid" src="img/logo2.png"></h2>
@@ -72,11 +74,12 @@
     </section>
     
     <section class="tour">
-        <a id="tour"></a>
-        <h2>TOURS</h2>
-        <p class="text-center">Disfruta de paisajes inolvidables y playas hermosas. MobyDick Travel te ofrece alquiler 
+        <div id="tour">
+            <h2>TOURS</h2>
+            <p class="text-center">Disfruta de paisajes inolvidables y playas hermosas. MobyDick Travel te ofrece alquiler 
             de bicicletas y asesoría para conocer los lugares más mágicos de Puerto López.</p>
-        <div class="cards">
+        </div>
+        <div class="cards" id="cards">
             <div>
                 <img src="img/42.jpg">
                 <h3>Tour Frailes</h3>
@@ -106,8 +109,7 @@
         </div>
     </section>
 
-	<footer >
-		<a id="contact"></a>
+	<footer id="contact" >
 		<div class="footer">
 			<div class="redes">
 			<h3>Nuestras Redes</h3>
@@ -118,8 +120,6 @@
 		</div>	
 
 		<div class="contacto">
-
-			<a id="contac"></a>
 			<h3>Contacto</h3>
 			<p>Direccion: Malecón Julio Izurieta</p>
 			<p>Teléfono: 22222222</p>
