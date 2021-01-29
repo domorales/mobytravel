@@ -1,0 +1,70 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.navbar-brand img{
+
+    width: 80px;
+}
+
+.navbar-brand{
+    margin-left:90px;
+}
+
+
+.navbar a {
+    font-family: 'Karla', sans-serif;
+    font-size: 19px;
+    margin-right: 90px;
+    color:black;
+}
+
+.navbar a:hover {
+    color: #004d73;
+}
+
+
+
+
+@media screen and (max-width: 766px){
+    .navbar a{
+        margin: 0;
+        outline: none;
+        text-decoration: none;
+        color:white;
+    }
+    
+    .navbar li:hover {
+        display: block;
+        background-color: white;
+ 
+    }
+
+    .navbar li {
+        text-align: center;
+ 
+    }
+    .navbar a:hover {
+
+        color: black;
+    }
+
+    .navbar{
+        background-color: #004d73;
+    }
+
+    .navbar-brand{
+        margin-left:0;
+    }
+
+    .navbar ul{
+        padding: 0;
+    }
+
+    .navbar span{
+        margin-bottom: 40px;
+    }
+
+}

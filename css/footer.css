@@ -6,10 +6,11 @@ footer{
 .footer{
 	display: flex;
 	flex-wrap: wrap;
-	
-	width: 100%;
 	justify-content: space-around;
 	color:white;
+}
+.footer div{
+	margin: auto 40px 40px;
 }
 
 .footer h3{
@@ -19,40 +20,21 @@ footer{
 	text-align: center;
 }
 
-
-
-
-
-.redes{
-
+.footer p{
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
 }
-
-.contacto p{
-
-	margin: 10px;
-
-}
-
-
-.marca{
-	padding-top: 80px;
-	padding-bottom: 30px;
-	text-align: center;
-	color:white;
-}
-
-
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
+	padding: 20px;
+	font-size: 30px;
+	width: 70px;
+	text-align: center;
+	text-decoration: none;
+	margin: auto auto;
+  }
 
-.fa:hover {
+  .fa:hover {
     opacity: 0.7;
 }
 
@@ -69,4 +51,11 @@ footer{
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+footer .marca{
+
+	text-align: center;
+	color: white;
+	padding: 30px;
 }

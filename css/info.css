@@ -1,0 +1,21 @@
+.info{
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+
+    
+
+.info p{
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.info h2{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 40px;
+    text-align: center;
+
+}
