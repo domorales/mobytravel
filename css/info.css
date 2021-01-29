@@ -22,3 +22,12 @@
 
 }
 
+@media screen and (max-width: 992px){
+    .info h2{
+        font-size: 40px;
+    }
+    .info p{
+        font-size: 70px;
+    }
+    
+}
