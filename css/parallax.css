@@ -1,0 +1,8 @@
+.parallax{
+    height: 200px;
+    background: fixed;
+    background-image: url(/img/ballena.jpeg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}

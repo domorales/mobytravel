@@ -1,0 +1,89 @@
+form{
+    padding-top: 40px;
+    background-color: #004d73;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label{
+    color:white;
+}
+
+form .input-group{
+
+    padding-bottom: 15px;
+}
+
+form .input-group input{
+    background-color: #004d73;;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid #007fbd;
+    color: white;
+
+}
+
+form .input-group input:focus{
+    background-color: #004d73;;
+    border: none;
+    box-shadow: none;
+    border-bottom: 4px solid #007fbd;
+    color: white;
+}
+
+form .input-group #message:focus{
+    background-color: #004d73;;
+    border: none;
+    box-shadow: none;
+    border-bottom: 4px solid #007fbd;
+    color: white;
+    height: 300px;
+}
+
+form .input-group .input-group-text{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+form .button{
+    margin-bottom: 50px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #007fbd;
+    color: white;
+}
+
+#button{
+    text-align: center;
+}
+form .group{
+    width: 60%;
+}
+
+
+form .fa {
+    font-size: 1rem;
+    padding: 0%;
+    margin: 0%;
+    width: 5%;
+}
+
+form label{
+    margin: 0;
+    font-size: 1.3rem;
+    font-family: 'Karla', sans-serif;
+}
+
+form h3{
+    font-family: 'Oswald', sans-serif;
+    min-width: 80%;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size:2.5rem;
+}

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/info.css">
     <link rel="stylesheet" href="css/tour.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/parallax.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="css/animation.css">
@@ -18,6 +20,8 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJiKnL22WRK3RhevXzsm2g52qYLp83YpA&callback=initMap"  type="text/javascript"></script>
     <script src="js/maps.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/validate.js"></script>
+    
 </head>
 <body>
     <header>
@@ -109,6 +113,40 @@
         </div>
     </section>
 
+    <section>
+        <div>
+            <img src="">
+        </div>
+        <form class="form" name="Form" autocomplete="off" method="get">
+            <h3>Contactanos</h3>
+            <div class="group">
+                <label>Nombre/Name</label>
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i>  </span>
+                    <input class="form-control"" type="text" id="name"  placeholder=""  required>
+                </div>
+            <label>Correo/Email</label>
+            <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input class="form-control"" type="email" id="email" placeholder="" required>
+            </div>
+            <label>Mensaje/Message</label>
+            <div class="input-group">
+                <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope"></i></span>
+                <input class="form-control"" type="text" id="message" placeholder="" required>
+            </div>
+            <div id="button">
+                <input class="button" type="submit" value="Enviar">
+            </div>
+            
+        </div>
+        </form>
+    </section >
+
+    <section class="parallax">
+
+    </section>
+
 	<footer id="contact" >
 		<div class="footer">
 			<div class="redes">
@@ -116,7 +154,6 @@
 			<a href="#" class="fa fa-facebook"></a>
 			<a href="#" class="fa fa-youtube"></a>
 			<a href="#" class="fa fa-instagram"></a>
-
 		</div>	
 
 		<div class="contacto">
@@ -132,6 +169,7 @@
 		</div>	
 	</footer>
 
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script></body>
 </html>
