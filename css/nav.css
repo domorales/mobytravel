@@ -30,6 +30,13 @@
     animation: fadein 3s;
 }
 
+.navbar-toggler-icon{
+    color:white; 
+    margin-right: 1.8rem;
+}
+
+
+
 
 @keyframes fadein{
     from{
@@ -45,7 +52,7 @@
 @media screen and (max-width: 992px){
    
     *{
-        font-size: 17px;
+        font-size: 27px;
     }
 
     .navbar a{
