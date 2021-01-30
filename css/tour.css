@@ -16,12 +16,10 @@
 
 .cards div{
     color:white;
-    width: 300px;
-    height: 400px;
+    width: 25rem;
+    height: 27.5rem;
     background-color :#004d73;
-    margin: 10px 10px 50px 50px;
-    
-
+    margin: 15px;
 }
 
 .tour h3{
@@ -67,3 +65,9 @@
 	box-shadow: 4px 4px 0 0 rgba(2,0,0,0.35) ;
 }
 
+@media screen and (max-width: 992px){
+    .cards div{
+
+        height: 20rem;
+    }
+}
