@@ -25,6 +25,16 @@ form .input-group input{
 
 }
 
+form .input-group textarea{
+    background-color:transparent;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid #007fbd;
+    color: white;
+    height: 120px;
+
+}
+
 form .input-group input:focus{
     background-color: #004d73;;
     border: none;
@@ -34,12 +44,11 @@ form .input-group input:focus{
 }
 
 form .input-group #message:focus{
-    background-color: #004d73;;
+    background-color: transparent;
     border: none;
     box-shadow: none;
     border-bottom: 4px solid #007fbd;
     color: white;
-    height: 300px;
 }
 
 form .input-group .input-group-text{
@@ -51,15 +60,23 @@ form .input-group .input-group-text{
 form .button{
     margin-bottom: 50px;
     border: none;
-    width: 100px;
-    height: 40px;
+    width: 6.25rem;
+    height: 2.5rem;
     border-radius: 10px;
     background-color: #007fbd;
     color: white;
+    border: 1px solid white ;
+    font-size: 1.1rem;
 }
+
+form .button:active{
+    box-shadow: 0px 0.6px 0.6px 0px white ;
+}
+
 
 #button{
     text-align: center;
+    
 }
 form .group{
     width: 60%;
