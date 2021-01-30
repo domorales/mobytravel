@@ -29,7 +29,7 @@
 
 
 .navbar-toggler-icon{
-    color:white; 
+    color:#007fbd; 
     margin-right: 1.8rem;
 }
 
@@ -49,12 +49,11 @@
         margin: 0;
         outline: none;
         text-decoration: none;
-        color:white;
     }
     
     .navbar li:hover {
         display: block;
-        background-color: white;
+        background-color:#007fbd;
  
     }
 
@@ -64,12 +63,10 @@
     }
     .navbar a:hover {
 
-        color: black;
+        color:white;
     }
 
-    .navbar{
-        background-color: #004d73;
-    }
+
 
     .navbar-brand{
         margin-left:0;
