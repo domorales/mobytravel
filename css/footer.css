@@ -10,7 +10,7 @@ footer{
 	color:white;
 }
 .footer div{
-	margin: auto 40px 40px;
+	margin: 40px 40px;
 }
 
 .footer h3{
@@ -26,12 +26,11 @@ footer{
 }
 
 .fa {
+	text-align: center;
 	padding: 20px;
 	font-size: 1.87rem;
 	width: 4.3rem;
-	text-align: center;
 	text-decoration: none;
-	margin: auto auto;
   }
 
   .fa:hover {
