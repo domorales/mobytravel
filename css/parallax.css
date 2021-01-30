@@ -6,3 +6,9 @@
     background-size:cover;
 
 }
+
+@media screen and (max-width: 992px){
+    .parallax{
+        height: 0;
+    }
+}
