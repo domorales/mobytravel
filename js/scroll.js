@@ -1,9 +1,11 @@
 window.addEventListener('scroll' , function(){
 
-    var dato;
-    var posicion;
-    let heightWindow = window.innerHeight;
+    let dato;
+    let posicion;
+    let heightWindow = screen.height;
+    let widthWindow = screen.width;
 
+    
     dato = document.getElementById("info");
     posicion = dato.getBoundingClientRect().top;
     if(posicion<heightWindow) dato.style.animation = "fadeinleft 1.5s  ease-out";
